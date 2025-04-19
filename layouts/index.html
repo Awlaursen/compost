@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $partial := print "partials/home/" .Site.Params.homepage.layout ".html" }}
+  {{ $partial := print "home/" .Site.Params.homepage.layout ".html" }}
   {{ if templates.Exists $partial }}
     {{ partial $partial . }}
   {{ else }}
