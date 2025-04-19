@@ -2,7 +2,7 @@
 
 Compost 是一个简单、轻量级的 [Hugo](https://gohugo.io) 主题。主要基于 [Congo](https://github.com/jpanther/congo) 改造，并参考了 [hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic) 等。
 
-🌏[演示站点](https://canstand.github.io/compost/zh)
+🌏[演示站点](https://awlaursen.github.io/compost/zh)
 
 ## 特性
 
@@ -15,7 +15,7 @@ Compost 是一个简单、轻量级的 [Hugo](https://gohugo.io) 主题。主要
 
 0. 本主题使用 `go modules`，不是 `git submodule`，先确认满足[要求](https://gohugo.io/hugo-modules/use-modules/#prerequisite)并阅读[说明](https://gohugo.io/hugo-modules/use-modules/#initialize-a-new-module)。（Windows 用户额外[注意](https://gohugo.io/getting-started/quick-start/#commands)）
 
-1. 在 Hugo 项目配置文件 `hugo.toml` 里指定主题为 `github.com/canstand/compost`，并且配置需要从主题合并的默认选项：
+1. 在 Hugo 项目配置文件 `hugo.toml` 里指定主题为 `github.com/awlaursen/compost`，并且配置需要从主题合并的默认选项：
 
 ```toml
 # required
@@ -39,7 +39,7 @@ Compost 是一个简单、轻量级的 [Hugo](https://gohugo.io) 主题。主要
   source = "hugo_stats.json"
   target = "assets/watching/hugo_stats.json"
 [[module.imports]]
-  path="github.com/canstand/compost"
+  path="github.com/awlaursen/compost"
 ```
 
 2. 安装或升级依赖：

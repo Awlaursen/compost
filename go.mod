@@ -1,3 +1,3 @@
-module github.com/canstand/compost
+module github.com/awlaursen/compost
 
 go 1.22

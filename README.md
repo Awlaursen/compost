@@ -2,7 +2,7 @@
 
 Compost is a simple, lightweight theme for [Hugo](https://gohugo.io). Mainly based on the [Congo](https://github.com/jpanther/congo), also refer to [hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic) and so on.
 
-🌏[Demo site](https://canstand.github.io/compost/) | [中文](https://canstand.github.io/compost/zh)
+🌏[Demo site](https://awlaursen.github.io/compost/) | [中文](https://awlaursen.github.io/compost/zh)
 
 ## Features
 
@@ -15,7 +15,7 @@ Compost is a simple, lightweight theme for [Hugo](https://gohugo.io). Mainly bas
 
 0. This theme uses `go modules`, not `git submodule`, to ensure that the [requirements](https://gohugo.io/hugo-modules/use-modules/#prerequisite) are met and to see the [instructions](https://gohugo.io/hugo-modules/use-modules/#initialize-a-new-module). ([Notes for Windows users](https://gohugo.io/getting-started/quick-start/#commands))
 
-1. Set the theme in the Hugo project as `github.com/canstand/compost`, and add required options to `hugo.toml`:
+1. Set the theme in the Hugo project as `github.com/awlaursen/compost`, and add required options to `hugo.toml`:
 
 ```toml
 # required
@@ -39,7 +39,7 @@ Compost is a simple, lightweight theme for [Hugo](https://gohugo.io). Mainly bas
   source = "hugo_stats.json"
   target = "assets/watching/hugo_stats.json"
 [[module.imports]]
-  path="github.com/canstand/compost"
+  path="github.com/awlaursen/compost"
 ```
 
 2. Install or upgrade dependencies:

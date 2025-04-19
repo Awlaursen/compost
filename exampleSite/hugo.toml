@@ -4,7 +4,7 @@
 # as it does not contain all the required theme settings!
 # --------------------------------------------------------------------------
 
-theme = "github.com/canstand/compost"
+theme = "github.com/awlaursen/compost"
 defaultContentLanguage = "en"
 title = "Compost"
 enableEmoji = true
@@ -55,7 +55,7 @@ enableRobotsTXT = true
   weight = 20
 [[languages.zh.menu.main]]
   name = "GitHub"
-  url = "https://github.com/canstand/compost"
+  url = "https://github.com/awlaursen/compost"
   weight = 30
 [languages.zh.params.article]
   dateFormat = "2006/01/02"
@@ -88,7 +88,7 @@ enableRobotsTXT = true
 [params.article]
   showBreadcrumbs = true
   showEdit = true
-  editURL = "https://github.com/canstand/compost/tree/main/exampleSite/content/"
+  editURL = "https://github.com/awlaursen/compost/tree/main/exampleSite/content/"
   editAppendPath = true
 
 [[menu.main]]
@@ -108,5 +108,5 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "GitHub"
-  url = "https://github.com/canstand/compost"
+  url = "https://github.com/awlaursen/compost"
   weight = 30

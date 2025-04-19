@@ -18,10 +18,10 @@ Compost 是一个简单、轻量级的 [Hugo](https://gohugo.io) 主题。主要
 
 ## 使用
 
-1. 在 Hugo 项目里指定主题为 `github.com/canstand/compost`，并且配置需要从主题合并的默认选项：
+1. 在 Hugo 项目里指定主题为 `github.com/awlaursen/compost`，并且配置需要从主题合并的默认选项：
 
 ```toml
-theme = 'github.com/canstand/compost'
+theme = 'github.com/awlaursen/compost'
 
 # required
 [build]
